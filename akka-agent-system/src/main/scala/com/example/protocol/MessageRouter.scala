@@ -24,7 +24,7 @@ class MessageRouter extends Actor {
       case Some(actor) =>
         actor ! msg
       case None =>
-        // Handle case where no agent is found for the recipientId
+        // Handle case where no agent is found for the recipientId need to think about this one
     }
   }
 }

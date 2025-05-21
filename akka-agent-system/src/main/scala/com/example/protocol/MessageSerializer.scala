@@ -18,6 +18,7 @@ class MessageSerializer extends Serializer {
     deserializeMessage(bytes)
   }
 
+// dummy implementations for serialize and deserialize methods for creating universal stadard API
   private def serializeMessage(message: Message): Array[Byte] = {
     // Implement serialization logic for Message
     // This is a placeholder for actual serialization logic

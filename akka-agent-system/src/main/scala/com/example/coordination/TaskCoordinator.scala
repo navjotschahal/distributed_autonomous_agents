@@ -34,7 +34,7 @@ class TaskCoordinator(agentRegistry: ActorRef) extends Actor {
   private def findAvailableAgent(): Option[ActorRef] = {
     // Logic to find an available agent from the registry
     // This could involve checking the status of agents and their capabilities
-    // For simplicity, we assume the first agent is available
+    // For simplicity, i assume the first agent is available
     Some(agentRegistry)
   }
 }
